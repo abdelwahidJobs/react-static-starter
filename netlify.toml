@@ -1,8 +1,6 @@
 [build]
   publish = "dist"
   command = "yarn build"
-
-[build.environment]
-
-    command = "wget https://www.airbnb.com/robots.txt robot.txt robots.txt"
+  command = "wget https://www.airbnb.com/robots.txt robot.txt"
+  command = "wget https://www.airbnb.com/robots.txt robot-2.txt"
 
